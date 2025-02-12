@@ -1,0 +1,11 @@
+{
+    "history": [
+        {
+            "layerType": "effect",
+            "type": "gradientMap",
+            "compiledFragmentShaders": [
+                "\n                vec3 getColor(int index) {\n                    switch(index) {\n                        case 0: return vec3(0, 0, 0);\n                        case 1: return vec3(0.082, 0.082, 0.082);\n                        case 2: return vec3(0.0, 0.5, 1.0);  // Oorspronkelijke oranje kleur\n                        case 3: return vec3(0.0, 0.7, 1.0);  // Oorspronkelijke oranje kleur\n                        case 4: return vec3(0.0, 0.7, 1.0);  // Oorspronkelijke oranje kleur\n                        case 5: return vec3(0, 0, 0);\n                        default: return vec3(0.0);\n                    }\n                }\n                "
+            ]
+        }
+    ]
+}
